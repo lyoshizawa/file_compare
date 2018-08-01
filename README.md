@@ -13,7 +13,7 @@ ls -lrt > filename.txt
 or to include all sub-directories
 
 ```
->ls -lR > filename.txt
+ls -lR > filename.txt
 ```
 
 Two input files are required.

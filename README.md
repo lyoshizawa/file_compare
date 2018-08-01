@@ -1,8 +1,13 @@
 # file_compare
-Compares the file list results from two unix directories/servers in terms of size and date
+This is a python script that compares the filesize and dates of unix servers/directories.  The comparison results are output into an excel file with three sheets with the following:
+1. Files with the same filesize and date
+2. Files with different filesizes or dates
+3. Files that only exist in one server and not the other.
 
-Output the file list using:
-ls -lrt > filename.txt
+To generate the required input documents, in each directory use the command:
+>ls -lrt > filename.txt
 
-or if you want all sub-directories:
-ls -lR > filename.txt
+or to include all sub-directories:
+>ls -lR > filename.txt
+
+Two input files are required.

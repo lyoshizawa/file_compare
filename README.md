@@ -5,9 +5,9 @@ This is a python script that compares the filesize and dates of unix servers/dir
 3. Files that only exist in one server and not the other.
 
 To generate the required input documents, in each directory use the command:
-ls -lrt > filename.txt
+>ls -lrt > filename.txt
 
 or to include all sub-directories:
-ls -lR > filename.txt
+>ls -lR > filename.txt
 
 Two input files are required.

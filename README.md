@@ -9,15 +9,12 @@ To generate the required input documents, in each directory use the command
 ```
 ls -lrt > filename.txt
 ```
-<<<<<<< HEAD
 
 or to include all sub-directories
 
 ```
 ls -lR > filename.txt
 ```
-=======
->>>>>>> update
 
 or to include all sub-directories
 

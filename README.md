@@ -9,6 +9,15 @@ To generate the required input documents, in each directory use the command
 ```
 ls -lrt > filename.txt
 ```
+<<<<<<< HEAD
+
+or to include all sub-directories
+
+```
+ls -lR > filename.txt
+```
+=======
+>>>>>>> update
 
 or to include all sub-directories
 
@@ -16,4 +25,4 @@ or to include all sub-directories
 ls -lR > filename.txt
 ```
 
-Two input files are required.
+Two input files are required.  The tkinter library is utilized to provide a gui to select the files, instead of having to type in the names manually.

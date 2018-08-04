@@ -16,10 +16,4 @@ or to include all sub-directories
 ls -lR > filename.txt
 ```
 
-or to include all sub-directories
-
-```
-ls -lR > filename.txt
-```
-
-Two input files are required.  The tkinter library is utilized to provide a gui to select the files, instead of having to type in the names manually.
+Two input files are required.  The tkinter library is utilized to provide a gui to select the files, instead of having to type in the names manually.  xlsxwriter library is used to output into an excel file.
